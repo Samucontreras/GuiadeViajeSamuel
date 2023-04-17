@@ -9,18 +9,53 @@ hr {
     height: 3px !important;
     background-color: skyblue !important;
   }
-.texto {
+  .texto1 {
     font-weight: 300;
-}
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease-in-out
+  }
+  .texto2 {
+    font-weight: 300;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1.5s ease-in-out
+  }
+  .texto3 {
+    font-weight: 300;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1.6s ease-in-out
+  }
 
+  .seccion{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
+
+  }
+
+    
+
+  
 .icono {
     background-color:skyblue !important;
+}
+
+.seccion2{
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
 }
 .contacto {
     background-color: rgb(13, 196, 241) !important;
     height: 11em;
     margin: 2em;
+    
 }
+
+
 
 .tarjeta {
     background-color: rgb(55, 56, 56);
@@ -31,6 +66,9 @@ hr {
       height: 40%;
       max-width: 820px;
       margin: 1em;
+      opacity: 0;
+    transform: translateY(20px);
+    transition: all 1.5s ease-in-out
     }
   
     @media only screen and (max-width: 600px) {
@@ -41,4 +79,68 @@ hr {
         font-size: 1.5rem;
       }
     }
+
+    .button{
+
+      animation-name: button;
+    }
+    
+    .button {
+      -webkit-animation: button 0.3s linear infinite both;
+              animation: button 0.3s linear infinite both;
+    }
+    @-webkit-keyframes button {
+      0% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+      }
+      20% {
+        -webkit-transform: translate(-2px, 2px);
+                transform: translate(-2px, 2px);
+      }
+      40% {
+        -webkit-transform: translate(-2px, -2px);
+                transform: translate(-2px, -2px);
+      }
+      60% {
+        -webkit-transform: translate(2px, 2px);
+                transform: translate(2px, 2px);
+      }
+      80% {
+        -webkit-transform: translate(2px, -2px);
+                transform: translate(2px, -2px);
+      }
+      100% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+      }
+    }
+    @keyframes button {
+      0% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+      }
+      20% {
+        -webkit-transform: translate(-2px, 2px);
+                transform: translate(-2px, 2px);
+      }
+      40% {
+        -webkit-transform: translate(-2px, -2px);
+                transform: translate(-2px, -2px);
+      }
+      60% {
+        -webkit-transform: translate(2px, 2px);
+                transform: translate(2px, 2px);
+      }
+      80% {
+        -webkit-transform: translate(2px, -2px);
+                transform: translate(2px, -2px);
+      }
+      100% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+      }
+    }
+
+    
 
