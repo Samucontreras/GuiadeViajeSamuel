@@ -35,9 +35,36 @@ hr {
 
   }
 
-    
+  .avion{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
+
+  }
+
+  .exclamacion{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
+
+  }
+
+  .route{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
+
+  }
+
+  .info{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
+
+  }
 
   
+
 .icono {
     background-color:skyblue !important;
 }
@@ -54,8 +81,6 @@ hr {
     margin: 2em;
     
 }
-
-
 
 .tarjeta {
     background-color: rgb(55, 56, 56);

@@ -55,9 +55,7 @@ let weather = {
   window.addEventListener('scroll', () => {
     const element = document.querySelector('.texto1');
     const position = element.getBoundingClientRect().top;
-  
     const screenPosition = window.innerHeight / 1.3;
-  
     if (position < screenPosition) {
       element.style.opacity = 1;
       element.style.transform = 'translateY(0)';
@@ -67,9 +65,7 @@ let weather = {
   window.addEventListener('scroll', () => {
     const element = document.querySelector('.texto2');
     const position = element.getBoundingClientRect().top;
-  
     const screenPosition = window.innerHeight / 1.3;
-  
     if (position < screenPosition) {
       element.style.opacity = 1;
       element.style.transform = 'translateY(0)';
@@ -79,9 +75,7 @@ let weather = {
   window.addEventListener('scroll', () => {
     const element = document.querySelector('.texto3');
     const position = element.getBoundingClientRect().top;
-  
     const screenPosition = window.innerHeight / 1.3;
-  
     if (position < screenPosition) {
       element.style.opacity = 1;
       element.style.transform = 'translateY(0)';
@@ -90,9 +84,7 @@ let weather = {
   window.addEventListener('scroll', () => {
     const element = document.querySelector('.seccion');
     const position = element.getBoundingClientRect().top;
-  
     const screenPosition = window.innerHeight / 1.3;
-  
     if (position < screenPosition) {
       element.style.opacity = 1;
       element.style.transform = 'translateY(0)';
@@ -102,9 +94,7 @@ let weather = {
   window.addEventListener('scroll', () => {
     const element = document.querySelector('.tarjeta');
     const position = element.getBoundingClientRect().top;
-  
     const screenPosition = window.innerHeight / 1.3;
-  
     if (position < screenPosition) {
       element.style.opacity = 1;
       element.style.transform = 'translateY(0)';
@@ -115,17 +105,53 @@ let weather = {
   window.addEventListener('scroll', () => {
     const element = document.querySelector('.seccion2');
     const position = element.getBoundingClientRect().top;
-  
     const screenPosition = window.innerHeight / 1.3;
-  
     if (position < screenPosition) {
       element.style.opacity = 1;
       element.style.transform = 'translateY(0)';
     }
   });
 
-    
-  
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.avion');
+    const position = element.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (position < screenPosition) {
+      element.style.opacity = 1;
+      element.style.transform = 'translateY(0)';
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.exclamacion');
+    const position = element.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (position < screenPosition) {
+      element.style.opacity = 1;
+      element.style.transform = 'translateY(0)';
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.route');
+    const position = element.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (position < screenPosition) {
+      element.style.opacity = 1;
+      element.style.transform = 'translateY(0)';
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.info');
+    const position = element.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (position < screenPosition) {
+      element.style.opacity = 1;
+      element.style.transform = 'translateY(0)';
+    }
+  });
+
 function url() {
     location.href = 'https://9c5qxg2vzv2.typeform.com/to/oR16ALWE';
 }
