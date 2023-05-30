@@ -63,6 +63,27 @@ hr {
 
   }
 
+  .carrusel{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
+
+  }
+
+  .navegacion{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 3s ease-in-out
+
+  }
+
+  .redes{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease-in-out
+
+  }
+
   
 
 .icono {
@@ -166,6 +187,6 @@ hr {
                 transform: translate(0);
       }
     }
-
+    
     
 

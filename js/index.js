@@ -152,6 +152,37 @@ let weather = {
     }
   });
 
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.carrusel');
+    const position = element.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (position < screenPosition) {
+      element.style.opacity = 1;
+      element.style.transform = 'translateY(0)';
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.navegacion');
+    const position = element.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (position < screenPosition) {
+      element.style.opacity = 1;
+      element.style.transform = 'translateY(0)';
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.redes');
+    const position = element.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (position < screenPosition) {
+      element.style.opacity = 1;
+      element.style.transform = 'translateY(0)';
+    }
+  });
+
+
 function url() {
     location.href = 'https://9c5qxg2vzv2.typeform.com/to/oR16ALWE';
 }
